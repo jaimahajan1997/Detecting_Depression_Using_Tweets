@@ -1,0 +1,8 @@
+1. ekphrasis doesn't deal with all contractions - "ur" - your
+append NOT_
+add </s>  to punctuations.
+improper tokenizing. emojis should be considered as sentence ending. 
+hashtags shouldnt be removed recklessly.
+Handcrafted features, will require wordnet sentiments, emojis and hashtags + pos.
+
+ngrams shouldnt be calculated between terminals of two sentences.
